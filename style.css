@@ -1,0 +1,18 @@
+h1 {
+    color: green;
+    text-align: center
+}
+h4 {
+    color: red;
+    border: 5px solid rgb(255,255,0);
+}
+
+body {
+    background-image: url(effects.jpg);
+    background-size: cover;
+    color: white
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}

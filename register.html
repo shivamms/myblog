@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UserRegistration</title>
+    </head>
+    <body>
+        <strong>Please register here</strong>
+        <div>
+        <!-- form to get data -->
+            <form method="POST">
+                <span>First Name:</span> <input type="text" name="firstname"><br>
+                Last  Name: <input type="text" name="lastname"><br>
+                Email     : <input type="email" name="email" required><br>
+                Birth Date: <input type="date" name="birthdate"><br>
+                Gender: <br>
+                    <input type="radio" name="gender">Male<br>
+                    <input type="radio" name="gender">Female<br>
+                Subscription Option: <br>
+                    <input type="checkbox" name="subscribe">Subscribe to email news letter <br>
+                Terms and conditions: <br>
+                    <input type="checkbox" name="terms"required>I agree to the terms and conditions <br>
+                Password  : <input type="password" name="password" min="5"><br>
+                You are a: <br>
+                <select>
+                    <option value="Student" name="student"> Student  </option>
+                    <option value="Professional" name="professional"> Professional  </option>
+                </select><br>
+                <input type="Submit" value="Register"> <input type="Reset"><br>
+            </form>
+        </div>
+    </body>
+</html>
